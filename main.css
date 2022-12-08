@@ -14,10 +14,10 @@
 
 @keyframes title{
     from {font-size: 10px; color: black; }
-    to {font-size: 200px; color: white;}
+    to {font-size: 8vw; color: white;}
 }
 #text{  
-    font-size: 200px;
+    font-size: 8vw;
     color: white;
     animation-name: title;
     animation-duration: 6s;
@@ -25,12 +25,13 @@
 #footer{
     
     position: fixed;
-    bottom: 5;
+    bottom: 0;
     text-align: center;
     width: 100%;
     margin: auto;
 }
 .mediaLinks{
+    
     display: inline;
     text-decoration: none;
     color: white;
@@ -44,4 +45,13 @@
     top: 35%;
     color: white;
     font-family: Rancho;
+}
+@media only screen and (max-width: 900px){
+    #imgContainer{
+        width: 75%;
+    }
+    #text{
+        font-size: 8vw;
+    }
+   
 }
