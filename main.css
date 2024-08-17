@@ -1,6 +1,6 @@
 .full{
     width: 100%;
-    height: 100vh;
+    
     background-color: black;
 }
 #imgContainer{
@@ -11,6 +11,7 @@
     height: 100vh;
     margin: auto;
 }
+
 
 @keyframes title{
     from {font-size: 10px; color: black; }
@@ -28,6 +29,7 @@
     bottom: 0;
     text-align: center;
     width: 100%;
+    
     margin: auto;
     margin-bottom: 10px;
 }
@@ -50,6 +52,7 @@
 #media{
     align-items: center;
     text-align: center;
+    margin-bottom: 200px;
 }
 .mediaContainer{
     width: auto;
@@ -66,4 +69,7 @@
         font-size: 12vw;
     }
    
+}
+html{
+    background-color: black;
 }
