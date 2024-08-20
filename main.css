@@ -44,7 +44,7 @@
     color: white;
 }
 #bioTitle{
-    position: fixed;
+    
     top: 35%;
     color: white;
     font-family: Rancho;
@@ -76,4 +76,9 @@
 }
 html{
     background-color: black;
+}
+
+.merchBox{
+    width: 70%;
+    margin: auto;
 }
